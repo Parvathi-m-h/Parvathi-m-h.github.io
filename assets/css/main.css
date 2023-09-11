@@ -29,7 +29,13 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 	/* text-align: justify; */
 }
-
+#bio_image {
+	border-radius: 50%;
+	/* display: block; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	/* width: 50%; */
+}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -1569,8 +1575,8 @@ input, select, textarea {
 			width: 40rem;
 			max-width: 100%;
 			/* background-color: rgba(27, 31, 34, 0.85); */
-			/* background-color: rgba(248, 200, 220, 0.55); */
-			background-color: rgba(216, 191, 216, 0.75);
+			background-color: rgba(248, 200, 220, 0.55);
+			/* background-color: rgba(216, 191, 216, 0.75); */
 			border-radius: 4px;
 			opacity: 0;
 		}
