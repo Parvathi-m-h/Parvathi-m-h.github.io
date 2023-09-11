@@ -25,6 +25,11 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	/* text-align: justify; */
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -111,7 +116,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1b1f22;
+		/* background: #1b1f22; */
+		background:rgba(255, 255, 255, 0.075);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1562,7 +1568,9 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			/* background-color: rgba(27, 31, 34, 0.85); */
+			/* background-color: rgba(248, 200, 220, 0.55); */
+			background-color: rgba(216, 191, 216, 0.75);
 			border-radius: 4px;
 			opacity: 0;
 		}
